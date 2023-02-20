@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { Box, Button, Flex, Grid, Img, Input, InputGroup, InputLeftElement, InputRightElement, Text, useToast } from '@chakra-ui/react';
+import { Box, Button, Flex, Grid, Img, Input, InputGroup, InputLeftElement,  Text, useToast } from '@chakra-ui/react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addOrder } from '../redux/order/action';
 import { Search2Icon } from '@chakra-ui/icons';
